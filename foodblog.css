@@ -1,0 +1,67 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: url(https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?cs=srgb&dl=close-up-photo-of-burger-1639562.jpg&fm=jpg) no-repeat;
+	background-size: cover;
+	background-color: black;
+	width: 100%;
+	height: auto;
+	color: white;
+	font-family: font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h2 {
+	text-align: center;
+	display: block;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+	border-color: rgba(207, 0, 15, 0.5);
+	margin: auto;
+	width: 100px;
+}
+
+
+header {
+	background: rgba(207, 0, 15, 0.5);
+}
+
+/* nav bar */
+nav li {
+	display: inline-block;
+	margin: 10px;
+}
+
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: white;
+
+}
+
+ nav a:hover {
+ 	color: black;
+ }
+
+
+/* contents of main paragraphs */
+.paragraph_background {
+	line-height: 1.5;
+	width: 40%;
+	background-color: rgba(207, 0, 15, 0.4)
+}
+
+.paragraph_border {
+	margin: 30px 10px 30px 10px;
+	border-radius: 10px;
+  	padding: 10px 7px 10px 10px;
+}	
+
+
+
+
+
+
